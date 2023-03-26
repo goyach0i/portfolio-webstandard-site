@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-/* 스킵 내비게이션  */
 #skip {
   position: relative;
 }
@@ -20,66 +19,50 @@
   top: 0;
 }
 
-/* 레이아웃 */
 #wrap {
   opacity: 0.3;
 }
-
 #header {
   height: 325px;
   background: url(../images/header_bg.jpg) center top repeat-x;
-}
-
-#contents {
 }
 #footer {
   border-top: 1px solid #eee;
 }
 
-/* 컨텐츠 레이아웃 */
 #cont_nav {
   background-color: #f6fdff;
   display: none;
 }
-
 #cont_tit {
   background-color: #eaf7fd;
 }
-
 #cont_ban {
   background-color: #dceff7;
 }
-
 #cont_cont {
   background-color: #f6fdff;
 }
 
-/* 컨테이너 */
 .container {
   width: 1200px;
   margin: 0 auto;
   height: inherit;
 }
-
-/* 헤더 */
 .header .header-menu {
   text-align: right;
 }
-
 .header .header-menu a {
   color: #fff;
   padding: 10px 0 10px 13px;
   display: inline-block;
 }
-
 .header .header-menu a:hover {
   color: #666;
 }
-
 .header .header-tit {
   text-align: center;
 }
-
 .header .header-tit h1 {
   background-color: #4aa7d4;
   font-size: 28px;
@@ -90,7 +73,6 @@
   font-weight: normal;
   text-transform: uppercase;
 }
-
 .header .header-tit a {
   display: inline-block;
   background-color: #2698cb;
@@ -99,12 +81,10 @@
   padding: 8px 20px 8px 20px;
   margin-top: -5px;
 }
-
 .header .header-icon {
   text-align: center;
   margin: 30px;
 }
-
 .header .header-icon a {
   width: 60px;
   height: 60px;
@@ -112,40 +92,31 @@
   background: url(../images/icon.png);
   margin: 0 3px;
 }
-
 .header .header-icon a.icon1 {
   background-position: 0 0;
 }
-
 .header .header-icon a.icon2 {
   background-position: 0 -60px;
 }
-
 .header .header-icon a.icon3 {
   background-position: 0 -120px;
 }
-
 .header .header-icon a.icon4 {
   background-position: 0 -180px;
 }
-
 .header .header-icon a.icon1:hover {
   background-position: -60px 0;
 }
-
 .header .header-icon a.icon2:hover {
   background-position: -60px -60px;
 }
-
 .header .header-icon a.icon3:hover {
   background-position: -60px -120px;
 }
-
 .header .header-icon a.icon4:hover {
   background-position: -60px -180px;
 }
 
-/* 전체 메뉴 */
 .nav {
   width: 990px;
   margin: 0 auto;
@@ -182,7 +153,6 @@
   text-decoration: underline;
 }
 
-/* 타이틀 */
 .tit {
   position: relative;
 }
@@ -206,7 +176,6 @@
   background-position: 0 -660px;
 }
 
-/* 슬릭 배너 */
 .ban {
   width: 990px;
   margin: 0 auto;
@@ -277,7 +246,6 @@
   background-color: #2b91c8;
 }
 
-/* 컨텐츠 */
 .cont {
   overflow: hidden;
   padding-top: 30px;
@@ -370,7 +338,6 @@
   background-position: -60px -540px;
 }
 
-/* 게시판 */
 .notice {
   position: relative;
 }
@@ -400,7 +367,6 @@
   height: 17px;
 }
 
-/* 게시판2 */
 .notice2 {
   position: relative;
   margin-top: 15px;
@@ -439,7 +405,6 @@
   height: 17px;
 }
 
-/* 게시판3 */
 .notice3 {
   position: relative;
 }
@@ -483,7 +448,6 @@
   height: 17px;
 }
 
-/* 마우스 오버효과1 */
 .notice_hover h4 {
   font-size: 16px;
   color: #0093bd;
@@ -528,9 +492,6 @@
   font-size: 13px;
 }
 
-/* 마우스 오버효과2 */
-.notice_hover2 {
-}
 .notice_hover2 ul {
   overflow: hidden;
 }
@@ -567,7 +528,6 @@
   font-size: 13px;
 }
 
-/* 탭 메뉴 */
 .tab_menu {
   position: relative;
   border: 1px solid #ccc;
@@ -618,7 +578,6 @@
   color: #333;
 }
 
-/* 게시판 4 */
 .notice4 {
   position: relative;
   border: 1px solid #ccc;
@@ -660,7 +619,6 @@
   top: 6px;
 }
 
-/* 갤러리 */
 .gallery {
   position: relative;
   border: 1px solid #ccc;
@@ -684,7 +642,6 @@
   margin: 0;
 }
 
-/* 슬릭 갤러리 */
 .gallery .gallery_btn button {
   float: left;
   margin: 1px 2px;
@@ -719,7 +676,6 @@
   background-position: -173px -189px;
 }
 
-/* 로그인 */
 #login-wrap {
   margin-bottom: 15px;
   width: 85%;
@@ -776,7 +732,6 @@
   font-size: 14px;
 }
 
-/* 팝업 */
 .popup h4 {
   font-size: 16px;
   color: #0093bd;
@@ -798,7 +753,6 @@
   width: 100%;
 }
 
-/* 푸터 */
 .footer {
   padding: 25px 0;
   text-align: center;
@@ -828,7 +782,6 @@
   margin-top: 15px;
 }
 
-/* 레이어 팝업 */
 #layer {
   display: none;
   position: fixed;
